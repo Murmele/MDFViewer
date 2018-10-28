@@ -1,0 +1,10 @@
+Plot MDF files into different plots
+
+Dependencies:
+- libmdf4: https://github.com/R1tschY/libmdf4
+	If you like to debug the MDFViewer you have to compile libmdf4 with the debug flag:
+		./autogen.sh
+		./configure --enable-debug
+		make -j4
+		sudo make install
+- KDChart: https://github.com/SleepyDeb/KDChart
